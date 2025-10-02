@@ -1,0 +1,12 @@
+import matplotlib.pyplot as plt
+
+# Sample data
+employees = ["Alice", "Bob", "Charlie", "David"]
+suspicious_activities = [5, 2, 7, 3]
+
+# Create column chart
+plt.bar(employees, suspicious_activities, color='steelblue')
+plt.title("Suspicious Activities Detected per Employee")
+plt.xlabel("Employees")
+plt.ylabel("Number of Activities")
+plt.show()
